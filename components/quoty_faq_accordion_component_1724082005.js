@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1724082005", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Hotel Brochures</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1724082005", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What information is included in your hotel brochures?", description: "Our hotel brochures provide comprehensive details about amenities, room types, dining options, local attractions, and special packages to give potential guests a complete overview of what our hotel offers.", expanded: false },
+                { title: "How can I request a physical copy of your hotel brochure?", description: "You can request a physical copy of our brochure by filling out the form on our website, calling our customer service line, or visiting our hotel in person. We'll be happy to mail it to you free of charge.", expanded: false },
+                { title: "Is there a digital version of your hotel brochure available?", description: "Yes, we offer a downloadable PDF version of our hotel brochure on our website. It's easily accessible and can be viewed on any device, perfect for those who prefer digital formats or need immediate access to our information.", expanded: false },
+                { title: "How often are your hotel brochures updated?", description: "We update our hotel brochures annually to ensure all information is current. However, for the most up-to-date details on promotions and seasonal offerings, we recommend checking our website or contacting our reservation team directly.", expanded: false },
             ],
         };
     },
