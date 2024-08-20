@@ -12,5 +12,11 @@
         "content": "Add a hero section below the header",
         "timestamp": "20082024175207",
         "message_id": "guest20082024175206"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea, I will add a hero section below the header.",
+        "timestamp": "20082024175207",
+        "message_id": "guest20082024175206"
     }
 ]
