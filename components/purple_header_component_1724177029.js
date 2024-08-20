@@ -6,7 +6,7 @@
 
 Vue.component("purple_header_component_1724177029", {
     template: `
-    <header class="w-full z-30" id="header-section-container">
+    <header class="w-full z-30" id="header-section-container" style="min-height: 150px">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div class="flex items-center justify-between h-16 md:h-20">
     
@@ -40,7 +40,7 @@ Vue.component("purple_header_component_1724177029", {
                         </svg>
                     </button>
     
-                    <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
+                    <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" : @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
                         <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
                             <li><a id="mobile-Home-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Home.html">Home</a></li>
                             <li><a id="mobile-Brochures-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Brochures.html">Brochures</a></li>
