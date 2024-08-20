@@ -35,6 +35,30 @@ Vue.component("dark_header_component_1724082005", {
                 </div>
             </div>
         </div>
+<section id="hero-section" class="bg-white dark:bg-slate-900 py-20">
+        <div class="max-w-xl lg:max-w-[calc(50%+theme(maxWidth.xl))] mx-auto px-4 sm:px-6">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-slate-900 dark:text-white sm:text-5xl md:text-6xl">
+                    Welcome to My Portfolio
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-slate-500 dark:text-slate-400 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                    Discover my projects and skills as a web developer.
+                </p>
+                <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                    <div class="rounded-md shadow">
+                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                            View Projects
+                        </a>
+                    </div>
+                    <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                        <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </header>
     `,
     data() {
