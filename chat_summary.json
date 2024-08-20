@@ -18,5 +18,11 @@
         "content": "Great idea, I will add a hero section below the header.",
         "timestamp": "20082024175207",
         "message_id": "guest20082024175206"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the hero section to focus on a single large image or a slider of multiple images?\", \"option1\": \"Single large image\", \"option2\": \"Slider of multiple images\"}, {\"question 2\": \"Should the hero section include a call-to-action button?\", \"option1\": \"Yes, include a call-to-action button\", \"option2\": \"No, just focus on the visual content\"}], \"input_token_count\": 274, \"output_token_count\": 98, \"time_taken\": \"0:00:06.320124\"}",
+        "timestamp": "20082024175214",
+        "message_id": "guest20082024175206"
     }
 ]
