@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the hero section to focus on a single large image or a slider of multiple images?\", \"option1\": \"Single large image\", \"option2\": \"Slider of multiple images\"}, {\"question 2\": \"Should the hero section include a call-to-action button?\", \"option1\": \"Yes, include a call-to-action button\", \"option2\": \"No, just focus on the visual content\"}], \"input_token_count\": 274, \"output_token_count\": 98, \"time_taken\": \"0:00:06.320124\"}",
         "timestamp": "20082024175214",
         "message_id": "guest20082024175206"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive slideshow of hotel images with captions\", \"checked\": true}, {\"feature\": \"Booking call-to-action button within the hero section\", \"checked\": true}, {\"feature\": \"Scroll-down indicator in the hero section\", \"checked\": false}, {\"feature\": \"Auto-play video background in hero section featuring hotel amenities\", \"checked\": false}, {\"feature\": \"Social media share buttons for the hotel brochures\", \"checked\": true}], \"input_token_count\": 228, \"output_token_count\": 104, \"time_taken\": \"0:00:06.997443\"}",
+        "timestamp": "20082024175215",
+        "message_id": "guest20082024175206"
     }
 ]
