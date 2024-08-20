@@ -61,7 +61,6 @@ Vue.component("dark_header_component_1724082005", {
         </div>
     </section>
     `,
-    `,
     data() {
         return {
             expanded:false,
